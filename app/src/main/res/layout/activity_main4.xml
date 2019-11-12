@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="股票紅利\n"
+        android:textStyle="bold"
+        android:textColor="@color/dark"
+        android:textSize="40sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   什麼是股票分紅？股息是股東定期按一定的比率從上市公司分取的盈利，紅利則是在上市公司分派股息之後按持股比例向股東分配的剩餘利潤。獲取股息和紅利，是股民投資於上市公司的基本目的，也是股民的基本經濟權利。\n
+
+ 股票什麼時候分紅？一般來講，上市公司在財會年度結算以後，會根據股東的持股數將一部分利潤作為股息分配給股東。
+\n"
+        android:textSize="25sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button04"
+        android:text="返回"
+        android:textSize="17sp"
+        />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="股票指數\n"
+        android:textStyle="bold"
+        android:textColor="@color/dark"
+        android:textSize="40sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  什麼是股票指數？股票指數即股票價格指數。是由證券交易所或金 融服務機構編制的表明股票行市變動的一種供參考的指示數字。由於股票價格起伏無常，投資者必然面臨市場價格風險。對於具體某一種股票的價格變化，投資者容 易瞭解，而對於多種股票的價格變化，要逐一瞭解，既不容易，也不勝其煩。投資者據此就可以檢驗自己投資的效果，並用以預測股票市場的動向。\n"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button05"
+        android:text="返回"
+        android:textSize="17sp"
+        />
+</LinearLayout>

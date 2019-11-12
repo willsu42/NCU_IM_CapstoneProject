@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="股票發行\n"
+        android:textStyle="bold"
+        android:textColor="@color/dark"
+        android:textSize="40sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  股票發行是指符合條件的發行人按照法定的程式，向投資人出售股份、募集資金的過程。\n（1）發行註冊制，是指證券發行人在公開募集和發行證券之前，需要向證券監管部門按照法定程式申請註冊登記。\n（2）核准制，是指證券發行者不僅必須公開有關所發行證券的真實情況，而且所發行的證券還必須遵守公司法和證券法中規定的若幹實質性條件。\n"
+        android:textSize="25sp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button06"
+        android:text="返回"
+        android:textSize="17sp"
+        />
+</LinearLayout>

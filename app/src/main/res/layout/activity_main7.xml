@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常用的股票術語"
+        android:textStyle="bold"
+        android:textColor="@color/dark"
+        android:textSize="40sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 開盤價：\n  是指當日開盤後該股票的第一筆交易成交的價格。如果開市後30分鐘內無成交價,則以前日的收盤價作為開盤價。\n
+收盤價：\n  指每天成交中最後一筆股票的價格,也就是收盤價格。\n
+最高價：\n  是指當日所成交的價格中的最高價位。有時不止一筆。\n
+最低價：\n  是指當日所成交的價格中的最低價位。有時不止一筆。\n"
+        android:textSize="25sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button07"
+        android:text="返回"
+        android:textSize="17sp"
+        />
+</LinearLayout>

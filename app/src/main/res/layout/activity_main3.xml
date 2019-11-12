@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="股票分類\n"
+        android:textStyle="bold"
+        android:textColor="@color/dark"
+        android:textSize="40sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  按股東權利分類，股票有優先股、普通股和後配股三種。\n  如果是按照票面型態分類則有記名股和無記名股、面值股和無面值股、單一股和複數股、普通股票和特別股、表決權股票和無表決權股票。\n"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textSize="17sp" />
+</LinearLayout>
