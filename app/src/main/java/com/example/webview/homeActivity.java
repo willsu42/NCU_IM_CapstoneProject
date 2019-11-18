@@ -16,6 +16,7 @@ public class homeActivity extends AppCompatActivity {
         ImageButton imageButton3 = (ImageButton)findViewById(R.id.imageButton3);
         ImageButton imageButton = (ImageButton)findViewById(R.id.imageButton);
         ImageButton imageButton2 = (ImageButton)findViewById(R.id.imageButton2);
+        ImageButton imageButton4 = (ImageButton)findViewById(R.id.imageButton4);
 
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +37,14 @@ public class homeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent int4 = new Intent(getApplicationContext(),TestActivity.class);
                 startActivity(int4);
+            }
+        });
+
+        imageButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int5 = new Intent(getApplicationContext(),GameActivity.class);
+                startActivity(int5);
             }
         });
     }

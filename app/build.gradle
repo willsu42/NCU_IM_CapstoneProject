@@ -16,6 +16,14 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
+        python {
+            // ......
+            pip {
+                install "pandas"
+                install "pandas-datareader"
+                install "numpy"
+            }
+        }
     }
     buildTypes {
         release {
