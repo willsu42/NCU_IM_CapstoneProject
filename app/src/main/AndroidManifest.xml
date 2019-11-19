@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".GameActivity"></activity>
+        <activity android:name=".webviewActivity"></activity>
+        <activity android:name=".reportActivity" />
+        <activity android:name=".changegameActivity" />
+        <activity android:name=".GameActivity" />
         <activity android:name=".TestActivity" />
         <activity android:name=".Main7Activity" />
         <activity android:name=".Main6Activity" />

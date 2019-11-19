@@ -79,7 +79,17 @@ public class ArticleActivity extends AppCompatActivity {
                 ArticleActivity.this.finish();
             }
         });
-
+        Button button_a = (Button)findViewById(R.id.button6);
+        button_a.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+// TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(ArticleActivity.this, webviewActivity.class);
+                startActivity(intent);
+                ArticleActivity.this.finish();
+            }
+        });
 
     }
 }
