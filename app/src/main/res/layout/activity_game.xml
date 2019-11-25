@@ -13,6 +13,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
+        android:hint="買入張數"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintStart_toEndOf="@+id/textView12" />
@@ -23,7 +24,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="16dp"
-        android:text="股價："
+        android:text="昨日股價："
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintStart_toStartOf="parent" />
@@ -34,7 +35,8 @@
         android:layout_height="wrap_content"
         android:text="送出"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="買入" />
 
     <TextView
         android:id="@+id/textView11"
@@ -42,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        android:text="TextView"
+        android:text="0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintStart_toEndOf="@+id/textView10" />
@@ -64,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="16dp"
-        android:text="本金："
+        android:text="現金："
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView18"
         app:layout_constraintStart_toStartOf="parent" />
@@ -77,17 +79,8 @@
         android:layout_marginBottom="16dp"
         android:text="10000000"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
         app:layout_constraintStart_toEndOf="@+id/textView13" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:text="試算"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2" />
 
     <TextView
         android:id="@+id/textView15"
@@ -152,17 +145,17 @@
         android:layout_marginBottom="16dp"
         android:text="0"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintStart_toEndOf="@+id/textView18" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:text="reset"
+        android:layout_marginEnd="16dp"
+        android:text="下一天"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3" />
+        app:layout_constraintEnd_toStartOf="@+id/button2" />
 
     <TextView
         android:id="@+id/textView22"
@@ -181,7 +174,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        android:text="2019-01-02"
+        android:text="1"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintStart_toEndOf="@+id/textView22" />

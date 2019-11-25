@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".changegameActivity">
+
     <EditText
         android:id="@+id/editText3"
         android:layout_width="120dp"
@@ -12,6 +13,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
+        android:hint="輸入買賣張數"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintStart_toEndOf="@+id/textView12" />
@@ -22,7 +24,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="16dp"
-        android:text="股價："
+        android:text="昨日股價："
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintStart_toStartOf="parent" />
@@ -31,7 +33,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="送出"
+        android:text="結算"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -41,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        android:text="TextView"
+        android:text="0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintStart_toEndOf="@+id/textView10" />
@@ -63,9 +65,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="16dp"
-        android:text="本金："
+        android:text="現金："
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -76,7 +78,7 @@
         android:layout_marginBottom="16dp"
         android:text="10000000"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
         app:layout_constraintStart_toEndOf="@+id/textView13" />
 
     <Button
@@ -84,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
-        android:text="買入試算"
+        android:text="買入"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2" />
 
@@ -118,7 +120,7 @@
         android:layout_marginBottom="16dp"
         android:text="元"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
@@ -158,7 +160,7 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="reset"
+        android:text="下一天"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -189,8 +191,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="賣出試算"
+        android:text="賣出"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="總資本："
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintStart_toEndOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="元"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
