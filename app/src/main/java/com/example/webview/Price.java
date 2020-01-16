@@ -1,7 +1,7 @@
 package com.example.webview;
 import java.util.Date;
 public class Price {
-    private  String index;
+    private  double index;
     private double price;
     private  Date date;
 
@@ -9,7 +9,7 @@ public class Price {
         //
     }
 
-    public Price(String index, double price, Date date){
+    public Price(double index, double price, Date date){
         this.index =index;
         this.price = price;
         this.date = date;
@@ -20,7 +20,7 @@ public class Price {
         this.price = price;
     }
 
-    public void setIndex(String index){
+    public void setIndex(double index){
         this.index = index;
     }
 
@@ -28,7 +28,7 @@ public class Price {
         this.date = date;
     }
 
-    public String getIndex(){
+    public double getIndex(){
         return index;
     }
 

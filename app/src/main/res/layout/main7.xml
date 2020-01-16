@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="22dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="一、股份公司種類\n
+1.無限公司\n
+2.有限公司\n
+3.兩合公司\n
+4.股份有限公司\n
+5.股份兩合公司\n\n二、股票公司的設立程序\n
+1.組織一定數量的發起人\n
+2.制定公司章程\n
+3.認購股份\n
+4.選舉管理機構\n
+5.辦理公司設立登記手續\n\n三、股份公司的組織\n
+1.股東大會\n
+2.董事會\n
+3.監事會\n
+4.經理\n\n四、股份公司的重整與合並\n
+1.股份公司的重整當公司財務嚴重困難或有破產危險時，為維護公司的存在和使之振興覆蘇，並保護股東公司債權人的利益，經法院裁定而進行的停業整頓，在法律上叫公司的重整。\n\n
+2.股份公司的合並公司的合並，是指兩個或兩個以上的公司依照法律規定或合同約定而合並為一個公司。公司的合並一般采取兩種方式：\n
+一、是吸收合並\n
+吸收合並，是指在兩個或兩個以上的公司合並過程中，其中一個公司繼續存在，而其他公司則在消滅原有法人資格後歸入前一公司。\n
+二、是新設合並\n
+新設合並是指在合並過程中，參加合並的所有公司都消滅掉原有法人資格，而形成了一個新的法人實體。\n\n五、股份公司的解散\n
+1.公司所經營的事業已經完成或不能完成，公司所定的章程關於解散的事由發生，股東大會決議解散。\n
+2.合並，即新設合並或吸收合並中被吸收。\n
+3.破產，公司宣布破產時，公司馬上應解散。\n
+4.政府主管機關宣布命令解散。\n
+5.法院裁定解散。\n\n六、企業的股份制改造\n
+1.國營企業股份化的步驟\n
+2.評估原有資產\n
+3.確定股份構成\n
+"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBack"
+        android:text="返回"
+        android:textSize="17sp"
+        />
+
+
+</LinearLayout>

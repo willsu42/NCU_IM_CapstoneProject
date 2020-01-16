@@ -39,24 +39,28 @@
                     android:id="@+id/RadioA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="25sp"
                     android:text="錢" />
 
                 <RadioButton
                     android:id="@+id/RadioB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="25sp"
                     android:text="紙" />
 
                 <RadioButton
                     android:id="@+id/RadioC"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="25sp"
                     android:text="工具" />
 
                 <RadioButton
                     android:id="@+id/RadioD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="25sp"
                     android:text="以上皆是" />
 
                 <!--正确答案，默认是隐藏的-->
@@ -68,7 +72,7 @@
                     android:layout_marginTop="10dp"
                     android:text="正確答案：選D！"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:visibility="invisible" />
 
             </RadioGroup>

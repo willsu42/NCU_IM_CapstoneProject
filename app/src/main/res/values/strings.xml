@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">webview</string>
+    <string name="layoutMain">新手入門</string>
+    <string name="layout1">什麼是股票</string>
+    <string name="layout2">股票種類</string>
+    <string name="layout3">股票紅利</string>
+    <string name="layout4">股票指數</string>
+    <string name="layout5">股票發行</string>
+    <string name="layout6">股票風險</string>
+    <string name="layout7">股份公司</string>
+    <string name="layout8">股票獲利來源</string>
+    <string name="layout9">購買股票前補的課</string>
+
 </resources>

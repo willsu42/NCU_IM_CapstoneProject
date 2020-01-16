@@ -12,7 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".webviewActivity"></activity>
+        <activity android:name=".report3Activity"></activity>
+        <activity android:name=".inno2Activity" />
+        <activity android:name=".tsmc2Activity" />
+        <activity android:name=".everydayActivity" />
+        <activity android:name=".innoActivity" />
+        <activity android:name=".tsmcActivity" />
+        <activity android:name=".Report2Activity" />
+        <activity android:name=".webviewActivity" />
         <activity android:name=".reportActivity" />
         <activity android:name=".changegameActivity" />
         <activity android:name=".GameActivity" />

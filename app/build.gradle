@@ -1,6 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.android.application'
-apply plugin: 'com.chaquo.python'
 apply plugin: 'com.google.gms.google-services'
 
 android {
@@ -13,17 +11,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        ndk {
-            abiFilters "armeabi-v7a", "x86"
-        }
-        python {
-            // ......
-            pip {
-                install "pandas"
-                install "pandas-datareader"
-                install "numpy"
-            }
-        }
+
     }
     buildTypes {
         release {
@@ -42,4 +30,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.google.firebase:firebase-firestore:21.3.0'
     implementation 'com.google.firebase:firebase-core:17.2.1'
+    implementation 'com.jjoe64:graphview:4.2.2'
 }

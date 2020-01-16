@@ -20,7 +20,7 @@ public class DBService {
     public List<Question> getQuestion() {
         List<Question> list = new ArrayList<>();
 
-        Cursor cursor = db.rawQuery("select * from question", null);
+        Cursor cursor = db.rawQuery("select * from question ORDER BY RANDOM() LIMIT 10", null);
         if (cursor.getCount() > 0) {
             cursor.moveToFirst();
             int count = cursor.getCount();

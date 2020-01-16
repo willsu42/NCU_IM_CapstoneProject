@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="22dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="投資股票的獲利來源有二： 一是公司分配盈余時股東所得的股利，二是股票買賣間的價差。
+
+\n\n一、股利
+
+\n當你所投資的公司賺錢時，會按照你持有的股份占所有股份的比例，分配利潤給你，此時你所獲得的利潤，就是股 利。 須註意的是，當公司不賺錢的時候，股東就可能完全領不到股利了。股利可分成兩種，一為股票股利；一為現金股利。下一節詳述。
+
+\n\n二、股票價差
+
+\n當市場上對某支股票的需求量大於供給量時，該股票的價格就會上漲。 所以，若投資人能低買高賣，就能賺取當中的差價。
+
+"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBack"
+        android:text="返回"
+        android:textSize="17sp"
+        />
+
+
+</LinearLayout>

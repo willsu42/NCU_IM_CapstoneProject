@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class homeActivity extends AppCompatActivity {
@@ -13,18 +14,13 @@ public class homeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        ImageButton imageButton3 = (ImageButton)findViewById(R.id.imageButton3);
+
+       // ImageButton imageButton3 = (ImageButton)findViewById(R.id.imageButton3);
         ImageButton imageButton = (ImageButton)findViewById(R.id.imageButton);
         ImageButton imageButton2 = (ImageButton)findViewById(R.id.imageButton2);
         ImageButton imageButton4 = (ImageButton)findViewById(R.id.imageButton4);
 
-        imageButton3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent int2 = new Intent(getApplicationContext(),SecondActivity.class);
-                startActivity(int2);
-            }
-        });
+     
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,7 +39,7 @@ public class homeActivity extends AppCompatActivity {
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent int5 = new Intent(getApplicationContext(),GameActivity.class);
+                Intent int5 = new Intent(getApplicationContext(),tsmcActivity.class);
                 startActivity(int5);
             }
         });

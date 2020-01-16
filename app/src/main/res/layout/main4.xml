@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="22dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="什麽是股票指數？股票指數即股票價格指數。是由證券交易所或金 融服務機構編制的表明股票行市變動的一種供參考的指示數字。由於股票價格起伏無常，投資者必然面臨市場價格風險。對於具體某一種股票的價格變化，投資者容 易了解，而對於多種股票的價格變化，要逐一了解，既不容易，也不勝其煩。為了適應這種情況和需要，一些金融服務機構就利用自己的業務知識和熟悉市場的優 勢，編制出股票價格指數，公開發布，作為市場價格變動的指標。投資者據此就可以檢驗自己投資的效果，並用以預測股票市場的動向。同時，新聞界、公司老板乃 至政界領導人等也以此為參考指標，來觀察、預測社會政治、經濟發展形勢。
+
+\n\n一、股票指數的計算方法
+
+\n1. 股價平均數的計算
+
+\n（1）簡單算術股價平均數
+
+\n（2）修正的股份平均數
+
+\n（3）加權股價平均數
+
+\n2.股票指數的計算
+
+\n（1）相對法
+
+\n（2）綜合法
+
+\n（3）加權法
+
+\n\n二、幾種著名的股票指數
+
+\n1.道瓊斯股票指數
+
+\n2.標準·普爾股票價格指數
+
+\n3.紐約證券交易所股票價格指數
+
+\n4.日經道·瓊斯股票指數（日經平均股價）
+
+\n5.《金融時報》股票價格指數
+
+\n6.香港恒生指數
+
+\n\n三、股票指數與投資收益
+
+\n股票指數是指數投資組合市值的正比例函數，其漲跌幅度是這一 投資組合的收益率。但在股票指數的計算中，並未將股票的交易成本扣除，故股民的實際收益將小於股票指數的漲跌幅度（股票指數的漲跌幅度是指數投資組合的最 大投資收益率）。 股市上經常流傳的一句格言，叫做牛賺熊賠，就是說牛市中股民盈利、在熊市中虧損，但如果把股民作為一個投資整體來分析，牛市中股民未必能贏利。
+"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBack"
+        android:text="返回"
+        android:textSize="17sp"
+        />
+
+
+</LinearLayout>
